@@ -11,7 +11,8 @@
 
 Install dependencies
 
-bash  npm install
+bash  
+npm install
 Configure environment variables in a .env file
 
 "PORT=3000
