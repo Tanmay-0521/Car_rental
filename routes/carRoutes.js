@@ -11,7 +11,7 @@ const router = express.Router();
 
 router.post('/car/create', restrictToAdmin, createCar);
 router.get('/car/get-rides', protect, getRides);
-router.post('/car/rent', protect, rentCar);
+router.get('/car/rent', protect, rentCar);
 router.post('/car/update-rent-history', restrictToAdmin, updateRentHistory);
 
 module.exports = router;

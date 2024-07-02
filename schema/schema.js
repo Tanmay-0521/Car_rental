@@ -16,5 +16,5 @@ CREATE TABLE cars (
   number_plate VARCHAR(20) NOT NULL,
   current_city VARCHAR(50) NOT NULL,
   rent_per_hr INT NOT NULL,
-  rent_history JSON DEFAULT '[]'
+  rent_history TEXT
 );`;
