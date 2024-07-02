@@ -1,0 +1,36 @@
+car-rental-system/
+├── node_modules/
+├── src/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── carController.js
+│   ├── middlewares/
+│   │   ├── authMiddleware.js
+│   ├── models/
+│   │   ├── userModel.js
+│   │   ├── carModel.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── carRoutes.js
+│   ├── config/
+│   │   ├── db.js
+│   ├── app.js
+├── .env
+├── package.json
+├── README.md
+
+ "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.2",
+    "uuid": "^10.0.0"
+
+    structure ready
+    initialization ready
+
+
+    //signup ready
+    //login ready
